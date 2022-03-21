@@ -1,0 +1,95 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	background-color: #ffffff;
+	padding: 30px 0;
+}
+header .container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+header figure{}
+header figure img{
+	width: 100%;
+	max-width: 200px;
+}
+header h1{
+	font-size: 30px;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600px;
+}
+
+main{
+	display: flex;
+	height: 100vh;
+}
+
+main section{
+	width: 50%;
+	padding: 100px 50px;
+}
+
+.secaoFormulario{}
+.secaoForumlario_formulario{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	margin: 0 0 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+.secaoForumlario_formulario input{
+	margin-bottom: 20px;
+	height: 25px;
+	border-radius: 5px;
+	padding: 0 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.secaoForumlario_formulario button{
+	margin-top: 20px;
+	height: 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+}
+
+.secaoListaContatos{
+	background-color: #d3d3d3;
+
+}
+.secaoListaContatos_lista{
+	width: 100%;
+	max-width: 350px;
+	font-family: 'Roboto', sans-serif;
+}
+.secaoListaContatos_lista li {
+	background-color: white;
+	padding: 20px 30px;
+	border-radius: 5px;
+	margin: 25px;
+}
+.secaoListaContatos_lista li p{
+	margin: 5px 0;
+}
+.secaoListaContatos_lista li button{
+	float: right;
+	background-image: url(./39220.png);
+	width: 30px;
+	height: 30px;
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.secaoListaContatos_lista li h2{
+	font-size: 18px;
+	font-weight: 600;
+}
+.secaoListaContatos_lista li span{}
